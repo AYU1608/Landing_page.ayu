@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<title>Level-1 Task-2 [Landing Page]</title>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cndjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+	body{
+		background-color:lightpink;
+	}
+	.navbar
+	{
+		font-family: Arial;
+		  background-color:black;
+		  position:fixed;
+		  width:100%;
+		  margin:-8px 0px 0px -8px;
+		  
+	}
+	.navbar a{
+		float: right;
+		font-size: 16px;	
+		color: white;
+		text-align: center;
+		padding: 14px 25px;
+		text-decoration: none;
+	}
+	a.active{
+		background-color:blue;
+		color:white;
+	}
+	.navbar a:hover{
+		background-color:gray;
+		color:white;
+	}
+	a.logo{
+		float:left;
+		height:100;
+		width:100;
+	}
+	#image{
+		float:left;
+		margin-top:20px;
+		margin-left:-10px;
+		
+	}
+	
+	.left{
+		position:absolute;
+		top:30%;
+		left:15%;
+		transform:translate(-50%,-50%);
+		font-size:60px;
+		color:black;
+	}
+	.right{
+		position:absolute;
+		top:30%;
+		right:20%;
+		transform:translate(-50%,-50%);
+		font-size:60px;
+		color:black;
+	}
+	.search{
+		position:absolute;
+		border-bottom-color:yellow;
+		top:50%;
+		right:-9%;
+		transform:translate(-50%,-50%);
+		font-size:40px;
+		background-color:black;
+		color:white;
+		
+	}
+	.button{
+		position:absolute;
+		
+		top:80%;
+		right:20%;
+		padding:15px 32px;
+		text-align:center;
+		color:white;
+		background-color:darkblue;
+		border:none;
+		text-decoration:none;
+		display:inline-block;
+		font-size:16px;
+	}	
+	</style></head>
+	<body>
+<h1><u><b>Level-1 Task-2 [Landing Page]</u></h1>
+<div class="navbar">
+	<a class="active" href="#Home">Home </a>
+	<a href="#Home">Blog </a>
+	<a href="#Home">Page </a>
+	<a href="#Home">Services</a>
+	<a href="#Home">Talks</a>
+	
+	<a href="#Home">About US </a>
+	<a href="#Home">Contact Me</a>
+	<a class="logo" href="#">LANDING PAGE</a>
+</div>
+<p>
+<div class="imgplctext">
+<img id="image" src="G:\Internship\Landing Page Level 1, Task 2, CodeSoft\desert.jpg" width="1368" height="561">
+<div class="left">Landing Page.</div>
+<div class="right"><b>Welcome.</b></div>
+<input class="search" type="text" placeholder="Search...">
+
+<button class="button" style="margin-right:200px;"><b> FREE TRIAL </button>
+<button class="button"> see more </b></button>
+
+</div>
+</body>
+</html>
